@@ -1,0 +1,21 @@
+{
+  "name": "money-deposit",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "testrpc": "cd testrpc && npm start"
+  },
+  "devDependencies": {
+    "bignumber.js": "^4.0.4",
+    "ramda": "^0.24.1",
+    "@digix/tempo": "^0.2.0"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "truffle": "^3.4.9",
+    "web3": "^0.20.1"
+  }
+}
